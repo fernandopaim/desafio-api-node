@@ -1,0 +1,26 @@
+{
+  "name": "desafio-api-node",
+  "version": "1.0.0",
+  "description": "Construção de API Node.js para consumir outra API de notícias para armazenamento em cache",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandopaim/desafio-api-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandopaim/desafio-api-node/issues"
+  },
+  "homepage": "https://github.com/fernandopaim/desafio-api-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
