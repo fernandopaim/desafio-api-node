@@ -4,6 +4,7 @@
   "description": "Construção de API Node.js para consumir outra API de notícias para armazenamento em cache",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "serve": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
