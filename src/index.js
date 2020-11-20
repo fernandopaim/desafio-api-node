@@ -7,7 +7,7 @@ var request = require('request');
 
 const app = express();
 app.use(cors());
-app.listen(80);
+app.listen(process.env.PORT || 8002);
 
 app.get('/', (req, resp) => resp.send('API Desafio Node.js'));
 
